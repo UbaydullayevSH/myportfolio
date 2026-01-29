@@ -1,0 +1,88 @@
+{
+  "nav": {
+    "link_1": "Home",
+    "link_2": "About",
+    "link_3": "Contact"
+  },
+  "hero": {
+    "title": "Hi, I AM <br> UBAYDULLAYEV SHAMSIDDIN.",
+    "description": "Hi! My name is Shamsiddin, I’m 17 years old, and I’m from Uzbekistan. I'm <br> passionate about IT and determined to build my future in this field. I already have solid <br> skills in HTML, CSS, and JavaScript, which allow me to create responsive and modern web <br> layouts.",
+    "contact_me": "Contact Me"
+  },
+  "work": {
+    "suptitle": "Featured Projects",
+    "text": "Here are some of the selected projects that showcase my passion for <br> front-end development.",
+    "title": "Promotional landing page for our <br> favorite show",
+    "features": "Teamed up with a designer to breathe life into a promotional webpage <br> for our beloved show, Adventure Time. Delivered a fully responsive <br> design with dynamic content capabilities, seamlessly integrating a <br> newsletter feature to keep fans updated with the latest adventures.",
+    "info": "PROJECT INFO",
+    "links": "Live demo"           
+  },
+  "work_menu": {
+    "year": "Year",
+    "role": "Role"
+  },
+  "blog": {
+    "title": "Blog site for World News",
+    "text": "Mastered CSS Grid complexities in building an innovative news <br> homepage, navigating intricate design decisions for a seamless user <br> experience. Leveraged the challenge to enhance skills in front-end <br> development.",
+    "info": "PROJECT INFO",
+    "client": "Client",
+    "year": "Year",
+    "role": "Role",
+    "demo": "Live demo"
+  },
+  "product": {
+    "title": "E-commerce product page",
+    "text": "Successfully crafted an engaging product page featuring a dynamic <br> lightbox gallery and seamless cart functionality, showcasing <br> proficiency in JavaScript development.",
+    "info": "PROJECT INFO",
+    "client": "Client",
+    "year": "Year",
+    "demo": "Live demo",
+    "features":"  This project was built using both front-end and back-end technologies <br> and represents my first real professional website, showcasing <br>practical experience in full-stack development."
+  },
+  "about": {
+    "title": "ABOUT ME",
+    "text": "I am a front-end developer based in Tashkent. Has Mechanical Engineering background.",
+    "subtext": "In addition to programming, I actively work on my personal development — I<br>    study English, mathematics, and enjoy playing football. My dream is to enter a high-quality<br>  international university that focuses on IT, where I can deepen my knowledge and grow as a<br>  professional.<br><br>  My strengths include discipline, responsibility, optimism, and hard work. My ultimate goal is to<br> become a recognized expert in the IT industry and contribute to the development of my country."
+  },
+  "contact": {
+    "title": "LET’S CONNECT",
+    "email_text": "Say hello at",
+    "resume_text": "For more info, here’s my"
+  },
+  "form": {
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "send": "Send",
+    "name_ph": "Shamsiddin",
+    "email_ph": "example@mail.com",
+    "subject_ph": "Subject",
+    "message_ph": "Your message here..."
+  },
+  "skills": {
+    "title": "MY CAPABILITIES",
+    "text": "I am always looking to add more skills."
+  },
+    "experience": {
+    "title": "MY EXPERIENCE",
+
+    "freelance": {
+      "title": "Freelance Developer",
+      "date": "Nov 2025 — Present",
+      "text": "I began studying IT in 2023 and quickly developed a strong interest in web development. Since then, I have created over 10 projects using HTML, CSS, and JavaScript. These projects reflect my continuous growth, attention to responsive design, and a passion for building clean and dynamic user interfaces."
+    },
+
+    "intern": {
+      "title": "Front-End Intern",
+      "date": "Aug 2023 — Sep 2023",
+      "company": "Roos Tech",
+      "text": "During this internship, I participated in a Demo Day where I had the opportunity to present a fully developed website live on stage. The event required not only technical skills but also confidence and communication, as I showcased my ability to build a complete website from scratch in front of an audience."
+    }
+  },
+
+  "achievements": {
+    "title": "My achievements",
+    "text": "Beyond my focus on IT, I actively engaged in community service and extracurricular activities. I volunteered in various initiatives, such as assisting the elderly and contributing to environmental projects by planting trees and other greenery. I also took part in sports activities, including regular morning runs, which helped me build discipline and resilience. In addition, I frequently supported my school by participating in events and providing assistance whenever needed."
+  }
+}

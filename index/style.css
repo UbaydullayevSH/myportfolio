@@ -1,0 +1,73 @@
+@import 'header.css';
+@import 'main.css';
+@import 'varriables.css';
+
+p,
+h1,
+h2,
+h3
+ {
+    cursor: pointer;
+}
+
+.to-top {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  border: 2px solid var(--light-green);
+  color: var(--light-green);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  font-weight: 700;
+  background:var(--black);
+  backdrop-filter: blur(2px);
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+}
+
+.to-top>span {
+  animation: anim 500ms infinite linear;
+}
+
+@keyframes anim {
+
+  0%,
+  100% {
+    transform: translate(0);
+  }
+
+  75% {
+    transform: translateY(-7px);
+  }
+}
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #000 !important; 
+  overflow-x: hidden; 
+  scroll-behavior: smooth;
+}
+
+
+.container__main {
+  max-width: 1200px; 
+  margin: 0 auto; 
+  padding: 0 20px; 
+}
+
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+

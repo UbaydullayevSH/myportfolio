@@ -1,0 +1,58 @@
+@import 'header.css';
+@import 'main.css';
+@import 'varriables.css';
+
+body{
+    font-family: 'Manrope';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: var(--black);
+}
+
+p,h1,h2,h3{
+    cursor: pointer;
+}
+
+.line{
+    border: 1px  solid var(--gray);
+}
+
+.to-top {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  border: 2px solid var(--light-green);
+  color: var(--light-green);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  font-weight: 700;
+  background:var(--black);
+  backdrop-filter: blur(2px);
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+}
+
+.to-top>span {
+  animation: anim 500ms infinite linear;
+}
+
+@keyframes anim {
+
+  0%,
+  100% {
+    transform: translate(0);
+  }
+
+  75% {
+    transform: translateY(-7px);
+  }
+}
+
+html{
+  scroll-behavior: smooth;
+}
