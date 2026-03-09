@@ -4,11 +4,11 @@
 /* SECTION HERO  */
 .hero {
     text-align: center;
- 
+
 }
 
-.left{
-        animation: fadeIn 1s ease-in;
+.left {
+    animation: fadeIn 1s ease-in;
 }
 
 .hero__wrapper {
@@ -18,11 +18,15 @@
     background: var(--black);
     font-family: 'Manrope';
     padding-bottom: 20px;
-      animation: slideUp 1.2s ease-out;
+    animation: slideUp 1.2s ease-out;
 }
 
 .title {
     color: var(--white);
+}
+
+.icons {
+    margin-top: 25px;
 }
 
 .text {
@@ -75,6 +79,18 @@
     .left {
         width: 90%;
     }
+
+
+    .icons {
+        margin-top: 25px;
+    }
+}
+
+@media(max-width:324px) {
+    .hero__wrapper {
+        width: 75%;
+    }
+
 }
 
 /* SECTION WORK  */
@@ -113,7 +129,7 @@
     transition: transform 0.4s ease;
 }
 
-.work__text:hover{
+.work__text:hover {
     transform: scale(1.05);
 }
 
@@ -186,9 +202,17 @@
     .work__img {
         width: 100%;
     }
+}
 
+@media(max-width:324px) {
+    .work {
+        width: 85%;
+    }
 
-
+    .work__menu {
+        display: flex;
+        column-gap: 10px;
+    }
 }
 
 
@@ -234,7 +258,7 @@
     transition: transform 0.4s ease;
 }
 
-.blog__text:hover{
+.blog__text:hover {
     transform: scale(1.05);
 }
 
@@ -281,6 +305,17 @@
     }
 }
 
+@media(max-width:324px) {
+    .blog__wrapper {
+        width: 85%;
+    }
+
+    .blog__menu {
+        display: flex;
+        column-gap: 10px;
+    }
+}
+
 
 
 /* SECTION PRODUCT  */
@@ -319,7 +354,7 @@
     transition: transform 0.4s ease;
 }
 
-.product__text:hover{
+.product__text:hover {
     transform: scale(1.05);
 }
 
@@ -388,6 +423,12 @@
     }
 }
 
+@media(max-width:324px) {
+    .product__wrapper {
+        width: 85%;
+    }
+}
+
 /* SECTION PRODUCT 2  */
 
 .product_2 {
@@ -424,7 +465,7 @@
     transition: transform 0.4s ease;
 }
 
-.product_2__text:hover{
+.product_2__text:hover {
     transform: scale(1.05);
 }
 
@@ -492,69 +533,13 @@
     }
 }
 
-
-/* SECTION ABOUT  */
-.about {
-    background-color: var(--black);
-    color: var(--white);
-    padding: 60px 20px;
-    font-family: 'Manrope';
-
-}
-
-.about__content {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 40px;
-    max-width: 1200px;
-    margin: 0 auto;
-    flex-wrap: wrap;
-}
-
-.about__title {
-    font-size: 32px;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: var(--white);
-    margin: 0;
-    white-space: nowrap;
-}
-
-.about__info {
-    max-width: 700px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.about__text{
-    font-size: 16px;
-    line-height: 1.7;
-    color: var(--gray);
-    transition: transform 0.4s ease;
-}
-
-.about__text:hover{
-    transform: scale(1.05);
-}
-
-/* MEDIA  */
-@media (max-width: 768px) {
-    .about__info {
-        gap: 16px;
-    }
-
-    .about__text,
-    .about__subtext {
-        font-size: 15px;
-        text-align: left;
-    }
-
-    .about__subtext br {
-        display: none;
+@media(max-width:324px){
+    .product_2__wrapper{
+        width: 85%;
     }
 }
+
+
 
 /* SECTION FORM  */
 .contact-section {
@@ -674,6 +659,16 @@ form button:hover {
 
     .contact-left {
         margin-bottom: 40px;
+    }
+}
+
+@media(max-width:324px){
+    .contact-left{
+        width: 50%;
+    }
+
+    .contact-right{
+        width: 75%;
     }
 }
 

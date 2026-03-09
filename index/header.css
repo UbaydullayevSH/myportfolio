@@ -107,6 +107,16 @@
   font-weight: 500;
 }
 
+.mobile_lang{
+  display: none;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.mobile_lang button{
+  padding: 5px 10px;
+}
+
 .mobile-menu .login-btn.mobile {
   width: 100%;
 }
@@ -117,6 +127,10 @@
 
   .nav,
   .login-btn {
+    display: none;
+  }
+
+  .language_select{
     display: none;
   }
 
@@ -135,6 +149,15 @@
 
   body.menu-open {
     overflow: hidden;
+  }
+
+}
+
+@media (max-width: 900px){
+
+  .mobile_lang{
+    display: flex;
+
   }
 
 }
