@@ -15,7 +15,7 @@
     "title": "Promotional landing page for our <br> favorite show",
     "features": "Teamed up with a designer to breathe life into a promotional webpage <br> for our beloved show, Adventure Time. Delivered a fully responsive <br> design with dynamic content capabilities, seamlessly integrating a <br> newsletter feature to keep fans updated with the latest adventures.",
     "info": "PROJECT INFO",
-    "links": "Live demo"           
+    "links": "Live demo"
   },
   "work_menu": {
     "year": "Year",
@@ -37,7 +37,7 @@
     "client": "Client",
     "year": "Year",
     "demo": "Live demo",
-    "features":"  This project was built using both front-end and back-end technologies <br> and represents my first real professional website, showcasing <br>practical experience in full-stack development."
+    "features": "  This project was built using both front-end and back-end technologies <br> and represents my first real professional website, showcasing <br>practical experience in full-stack development."
   },
   "about": {
     "title": "ABOUT ME",
@@ -64,15 +64,13 @@
     "title": "MY CAPABILITIES",
     "text": "I am always looking to add more skills."
   },
-    "experience": {
+  "experience": {
     "title": "MY EXPERIENCE",
-
     "freelance": {
       "title": "Freelance Developer",
       "date": "Nov 2025 — Present",
       "text": "I began studying IT in 2023 and quickly developed a strong interest in web development. Since then, I have created over 10 projects using HTML, CSS, and JavaScript. These projects reflect my continuous growth, attention to responsive design, and a passion for building clean and dynamic user interfaces."
     },
-
     "intern": {
       "title": "Front-End Intern",
       "date": "Aug 2023 — Sep 2023",
@@ -80,9 +78,16 @@
       "text": "During this internship, I participated in a Demo Day where I had the opportunity to present a fully developed website live on stage. The event required not only technical skills but also confidence and communication, as I showcased my ability to build a complete website from scratch in front of an audience."
     }
   },
-
   "achievements": {
     "title": "My achievements",
     "text": "Beyond my focus on IT, I actively engaged in community service and extracurricular activities. I volunteered in various initiatives, such as assisting the elderly and contributing to environmental projects by planting trees and other greenery. I also took part in sports activities, including regular morning runs, which helped me build discipline and resilience. In addition, I frequently supported my school by participating in events and providing assistance whenever needed."
+  },
+  "product_3": {
+    "title": "E-commerce product page",
+    "features": "Big Panda is a website dedicated to logistics, export,<br>and import of international goods.<br>The platform is focused on communication and collaboration between<br>professional clients, providing a<br>convenient and user-friendly interface for<br>interaction and service presentation.",
+    "year":"Year",
+    "demo":"Live demo",
+    "client":"World News",
+    "info":"PROJECT INFO"
   }
 }
